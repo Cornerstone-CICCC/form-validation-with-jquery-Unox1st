@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modern Form</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Validation Plugin -->
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <form id="myForm">
+
+      <h2>Create Account</h2>
+      <p class="subtitle">Join us today 🚀</p>
+
+      <div class="input-group">
+        <input type="text" name="firstName" required>
+        <label>First Name</label>
+      </div>
+
+      <div class="input-group">
+        <input type="email" name="email" required>
+        <label>Email</label>
+      </div>
+
+      <div class="input-group">
+        <input type="password" name="password" required>
+        <label>Password</label>
+      </div>
+
+      <div class="input-group">
+        <input type="password" name="confirmPassword" required>
+        <label>Confirm Password</label>
+      </div>
+
+      <button type="submit">Sign Up</button>
+
+    </form>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
